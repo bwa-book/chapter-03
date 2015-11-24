@@ -19,10 +19,10 @@
                 </controller>
             </objects>
         </scene>
-        <!--Interface Controller-->
+        <!--World-->
         <scene sceneID="T65-n8-pS9">
             <objects>
-                <controller hidesWhenLoading="NO" id="lTv-bi-ddI">
+                <controller identifier="World" hidesWhenLoading="NO" id="lTv-bi-ddI">
                     <items>
                         <label alignment="center" verticalAlignment="center" text="World" id="aKG-OS-tHw"/>
                     </items>
