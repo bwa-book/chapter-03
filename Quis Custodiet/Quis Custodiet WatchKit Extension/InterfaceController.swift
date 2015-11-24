@@ -4,10 +4,10 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
-    override func awakeWithContext(context: AnyObject?) {
-        super.awakeWithContext(context)
+    override init() {
+        super.init()
         
-        // Configure interface objects here.
+        addMenuItemWithItemIcon(.More, title: "More", action: Selector("contextMoreTapped"))
     }
     
     @IBAction func helloTapped() {
@@ -17,15 +17,9 @@ class InterfaceController: WKInterfaceController {
     @IBAction func contextInfoTapped() {
         pushControllerWithName("Info", context: nil)
     }
-
-    override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
-        super.willActivate()
-    }
-
-    override func didDeactivate() {
-        // This method is called when watch view controller is no longer visible
-        super.didDeactivate()
+    
+    func contextMoreTapped() {
+        presentControllerWithNames(["World", "Info"], contexts: nil)
     }
 
 }
