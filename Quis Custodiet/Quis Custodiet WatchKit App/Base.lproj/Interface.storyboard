@@ -10,7 +10,11 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Quis_Custodiet_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="center" verticalAlignment="center" text="Hello" id="okc-9O-dIa"/>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Hello" id="aZg-QQ-26y">
+                            <connections>
+                                <segue destination="lTv-bi-ddI" kind="push" id="T9K-y3-Wbx"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
