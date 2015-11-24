@@ -30,5 +30,16 @@
             </objects>
             <point key="canvasLocation" x="1034" y="623"/>
         </scene>
+        <!--Info-->
+        <scene sceneID="XJx-MU-Cg3">
+            <objects>
+                <controller identifier="Info" hidesWhenLoading="NO" id="lJl-WE-gc2">
+                    <items>
+                        <label alignment="center" verticalAlignment="center" text="Info" id="FwM-SJ-LZh"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1034" y="880"/>
+        </scene>
     </scenes>
 </document>
