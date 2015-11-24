@@ -12,7 +12,7 @@
                     <items>
                         <button width="1" alignment="center" verticalAlignment="center" title="Hello" id="aZg-QQ-26y">
                             <connections>
-                                <segue destination="lTv-bi-ddI" kind="push" id="T9K-y3-Wbx"/>
+                                <action selector="helloTapped" destination="AgC-eL-Hgc" id="ak7-dU-zNL"/>
                             </connections>
                         </button>
                     </items>
