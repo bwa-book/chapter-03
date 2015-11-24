@@ -18,7 +18,11 @@
                     </items>
                     <menu key="menu" id="0aw-Vm-ZaA">
                         <items>
-                            <menuItem title="Info" icon="info" id="KdK-Wi-ear"/>
+                            <menuItem title="Info" icon="info" id="KdK-Wi-ear">
+                                <connections>
+                                    <action selector="contextInfoTapped" destination="AgC-eL-Hgc" id="LCM-da-DFT"/>
+                                </connections>
+                            </menuItem>
                         </items>
                     </menu>
                 </controller>

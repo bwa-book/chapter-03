@@ -13,6 +13,10 @@ class InterfaceController: WKInterfaceController {
     @IBAction func helloTapped() {
         pushControllerWithName("World", context: nil)
     }
+    
+    @IBAction func contextInfoTapped() {
+        pushControllerWithName("Info", context: nil)
+    }
 
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
