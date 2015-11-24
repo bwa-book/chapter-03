@@ -16,6 +16,11 @@
                             </connections>
                         </button>
                     </items>
+                    <menu key="menu" id="0aw-Vm-ZaA">
+                        <items>
+                            <menuItem title="Info" icon="info" id="KdK-Wi-ear"/>
+                        </items>
+                    </menu>
                 </controller>
             </objects>
         </scene>
