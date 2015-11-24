@@ -12,9 +12,6 @@
                     <items>
                         <label alignment="center" verticalAlignment="center" text="Hello" id="okc-9O-dIa"/>
                     </items>
-                    <connections>
-                        <segue destination="lTv-bi-ddI" kind="relationship" relationship="nextPage" id="j1Y-Mj-RQX"/>
-                    </connections>
                 </controller>
             </objects>
         </scene>
