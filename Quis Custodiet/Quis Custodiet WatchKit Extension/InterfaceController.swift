@@ -7,7 +7,7 @@ class InterfaceController: WKInterfaceController {
     override init() {
         super.init()
         
-        addMenuItemWithItemIcon(.More, title: "More", action: Selector("contextMoreTapped"))
+        addMenuItemWithItemIcon(.More, title: "More", action: #selector(InterfaceController.contextMoreTapped))
     }
     
     @IBAction func helloTapped() {
